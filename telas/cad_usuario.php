@@ -11,17 +11,18 @@ $id;
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <a class="navbar-brand" href="listar_chamados.php">Secretaria de Saúde</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse a" id="navbarNav">
+        <a class="navbar-brand" href="../index.php">Secretaria de Saúde</a>
+        
+        <div  id="navbarNav">
             <ul class="navbar-nav ml-auto a">
                 <li class="nav-item a">
                     <a class="nav-link text-light" href="cad_usuario.php">Cadastrar Usuário</a>
                 </li>
                 <li class="nav-item a">
-                    <a class="nav-link text-light" href="#">Relatórios</a>
+                    <a class="nav-link text-light" href="chamados.php"> Novo Chamados</a>
+                </li>
+                <li class="nav-item a">
+                    <a class="nav-link text-light" href="listar_chamados.php">Chamados</a>
                 </li>
             </ul>
         </div>

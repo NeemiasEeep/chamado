@@ -9,22 +9,7 @@ $id;
 ?>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <a class="navbar-brand" href="index.php">Secretaria de Saúde</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse a" id="navbarNav">
-            <ul class="navbar-nav ml-auto a">
-                <li class="nav-item a">
-                    <a class="nav-link text-light" href="cad_usuario.php">Cadastrar Usuário</a>
-                </li>
-                <li class="nav-item a">
-                    <a class="nav-link text-light" href="#">Relatórios</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
     <main>
         <form action="prog/login.php" method="post">
             <label for="">Login</label>

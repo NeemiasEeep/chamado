@@ -17,11 +17,14 @@ $id;
         </button>
         <div class="collapse navbar-collapse a" id="navbarNav">
             <ul class="navbar-nav ml-auto a">
-                <li class="nav-item a">
+            <li class="nav-item a">
                     <a class="nav-link text-light" href="cad_usuario.php">Cadastrar Usuário</a>
                 </li>
                 <li class="nav-item a">
-                    <a class="nav-link text-light" href="#">Relatórios</a>
+                    <a class="nav-link text-light" href="chamados.php"> Novo Chamados</a>
+                </li>
+                <li class="nav-item a">
+                    <a class="nav-link text-light" href="listar_chamados.php">Chamados</a>
                 </li>
             </ul>
         </div>

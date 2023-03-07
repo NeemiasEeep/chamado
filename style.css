@@ -1,52 +1,75 @@
-body{
-    background-color: rgb(255, 255, 255);
-    color: rgb(204, 198, 198);
-}
-main{
-    margin: 2.5em 30em;
-    padding: 1.5em;
-    background-color: rgb(27, 73, 75);
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-label{
-    font-size: 1.5em;
-    color: rgb(255, 232, 232)
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(204, 198, 198);
 }
 
-button{
-    width: 100%;
+main {
+  padding: 1.5em;
+  background-color: rgb(27, 73, 75);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1em 10em;
 }
-.rght{
-    float: right;
+
+label {
+  font-size: 1.5em;
+  color: rgb(255, 232, 232);
 }
-.radio{
-    font-size: 1em;
+
+button {
+  width: 100%;
 }
+
+.rght {
+  float: right;
+}
+
+.radio {
+  font-size: 1em;
+}
+
 table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  thead {
-    background-color: #3f5b55;
-    font-weight: bold;
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #3f5b55;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #3f5b55;
-  }
-  a{
-    margin: 0em 1em;
-  }
-  img{
-    width: 10%;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #3f5b55;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #3f5b55;
+}
+
+tr:nth-child(even) {
+  background-color: #3f5b55;
+}
+
+a {
+  margin: 0em 1em;
+}
+
+img {
+  width: 10%;
+}
+
+.ver-mais-btn {
+  background-color: #eee;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.ver-mais-btn:hover {
+  background-color: #ddd;
+}
+
+
